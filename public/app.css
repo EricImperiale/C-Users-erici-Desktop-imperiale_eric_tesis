@@ -1,0 +1,48 @@
+a {
+    text-decoration: none !important;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.property-area li:after {
+    content: " | ";
+    margin-right: 4px;
+}
+
+.card-img-top {
+    background-color: grey;
+    height: 170px;
+}
+
+@media (min-width: 320px) {}
+
+/* Teléfonos (modo retrato y paisaje) */
+@media (min-width: 480px) and (max-width: 575px) {}
+
+/* Teléfonos (modo paisaje) */
+@media (min-width: 576px) {  }
+
+/* Teléfonos (iPhone 6, 6s, 7, 8) */
+@media (min-width: 375px) {}
+
+/* Teléfonos (iPhone 6 Plus, 6s Plus, 7 Plus, 8 Plus) */
+@media (min-width: 414px) {}
+
+/* Tabletas pequeñas (iPad, 768px y más) */
+@media (min-width: 768px) {}
+
+/* Tabletas grandes y dispositivos de escritorio pequeños (iPad Pro, laptops, 1024px y más) */
+@media (min-width: 1024px) {}
+
+/* Pantallas grandes (monitores de escritorio, 1280px y más) */
+@media (min-width: 1280px) {}
+
+/* Pantallas extra grandes (1440px y más) */
+@media (min-width: 1440px) {}
+
+/* Pantallas ultra grandes (1920px y más) */
+@media (min-width: 1920px) {}
+
+
